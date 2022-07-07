@@ -26,7 +26,7 @@ public class MainMenu {
 
     // add snake image to background of menu
     JLabel background_label = new JLabel();
-    ImageIcon snakeIconImg = new ImageIcon("/Users/master/code/Java/snake_Java/src/menu_package/snake.png");
+    ImageIcon snakeIconImg = new ImageIcon("/Users/master/code/Java/snake_Java/src/menu/snake.png");
     Image snakeImage = snakeIconImg.getImage();
     Image smallerSnakeImage = snakeImage.getScaledInstance(500, 500, Image.SCALE_SMOOTH);
     snakeIconImg = new ImageIcon(smallerSnakeImage);
@@ -48,10 +48,10 @@ public class MainMenu {
     gameTitle.setBounds(600, 50, 500, 80);
     gameTitle.setVerticalTextPosition(JLabel.TOP);
 
-    StartButton startButton = new StartButton();
+    // StartButton startButton = new StartButton();
 
 
-    menuScreen.add(startButton);
+    // menuScreen.add(startButton);
     // menuScreen.add(exit_button);
     menuScreen.add(gameTitle);
     menuScreen.add(background_label);
