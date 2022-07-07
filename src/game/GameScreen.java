@@ -56,3 +56,6 @@ public class GameScreen {
 // I need to consider how this will impact the difficulty of moving the snake and placing
 // the food randomly in order to decide what's best, as well as perhaps efficiency (although
 // that is not a priority here).
+// I think a double array is the best way to go as the grid does not need to dynamically
+// change size (it is fixed) and every cell is populated with a color to identify
+// it as empty space, food, or the snake.
